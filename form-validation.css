@@ -1,0 +1,25 @@
+.container {
+  max-width: 960px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+.border-top-gray { border-top-color: #adb5bd; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.lh-condensed { line-height: 1.25; }
+.bg-LOrange{ background: #ffb366; /* fallback for old browsers */
+  background: linear-gradient(to right,#0f6d74,  #749ae2
+, #0f6d74);}
+
+.bg-bkgd{ background: #ffb366; /* fallback for old browsers */
+  background: linear-gradient(to right,#9fa122,  #dee049
+, #9fa122);}
+
+label{
+  color: white;
+}
+.invalid-feedback{
+  color: rgb(221, 77, 77);
+}

@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="ico.jpg">
+
+    <title>Contact Page</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
+  </head>
+  <style>
+    /* Set the size of the div element that contains the map */
+    #map {
+      height: 400px;  /* The height is 400 pixels */
+      width: 650px;  /* The width is the width of the web page */
+     }
+  </style>
+
+  <body style="background-image: url(bokeh.jpg );" class="text-center">
+    <nav style=""  class="navbar navbar-expand-md navbar-dark fixed-top bg-LOrange">
+      <a   class="navbar-brand" href="index.html">Cake Planet</a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cakes.html">Cakes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactUs.html">Contact Us<span class="sr-only">(current)</span></a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="Product.html"> Products</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="AboutPge.html"> About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html"> Login</a>
+          </li>
+         
+          </li>
+         
+        </ul>
+       
+      </div>
+    </nav>
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div  class="inner">
+          <h3  class="masthead-brand">Cake Planet</h3 >
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Cakes</a>
+          </nav>
+        </div>
+      </header>
+    </br>
+    
+
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="phone1.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2 style="color: white;">Contact Us with Voice  </h2>
+          <p style="color:beige;">Telp:+94 0112 912-013</p>
+          <p><a style="background-color:greenyellow;" class="btn btn-secondary" href="#" role="button">Call us &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="email2.png" alt="Generic placeholder image" width="140" height="140">
+          <h2 style="color: white;"> Email and get Ideas</h2>
+          <p style="color: beige;"> Email:cakeplanet.gmail.com</p>
+          <p><a style="background-color: greenyellow;" class="btn btn-secondary" href="#" role="button">Send Email&raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="adress1.png" alt="Generic placeholder image" width="140" height="140">
+          <h2 style="color: white;">Find Us on google map</h2>
+          <p style="color: beige;">Address:colombo,sri lanka</p>
+          <p><a style="background-color:greenyellow;" class="btn btn-secondary" href="#" role="button">Open map&raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+      
+        <div id="map"></div>
+        <script>
+    // Initialize and add the map
+    function initMap() {
+      // The location of Uluru
+      var uluru = {lat: 6.908510, lng: 79.861746};
+      // The map, centered at Uluru
+      var map = new google.maps.Map(
+          document.getElementById('map'), {zoom: 15, center: uluru});
+      // The marker, positioned at Uluru
+      var marker = new google.maps.Marker({position: uluru, map: map});
+    }
+        </script>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9Czo-C8qU0l73L-REe61i4Qd2t5xHfBk&callback=initMap">
+        </script>
+      </body>
+      </main>
+
+      <footer class="container">
+        <p class="float-right"><a href="#">Feedback</a></p>
+        <p style="color: whitesmoke;">&copy; 2019-2020 PAMUXbro,Ceylon. &middot; <a style="color:skyblue;" href="#">Privacy</a> &middot; <a style="color: skyblue;" href="#">Terms</a></p>
+      </footer>
+    </div>
+    
+    
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
